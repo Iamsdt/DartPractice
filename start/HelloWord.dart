@@ -7,7 +7,8 @@
 import 'dart:math';
 
 //comment
-/*multi line comment
+/*
+* multi line comment
 */
 
 void main() {
@@ -28,9 +29,15 @@ void main() {
   // because numbers—like everything else in Dart—are objects.
   int lineCount;
 
+  //multiple variable
+  var a,b,c,d,e;
+  //multiple variable with value
+  var a1 = 10,b2 = 20,c2 = 30;
+
   //final and constant
   final name = "Shudipto";
   final String type = "Student"; //explicitly
+
 
   const value = 1000;
   const String data = "data:$value"; //explicitly
