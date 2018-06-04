@@ -32,10 +32,9 @@ isNobel(int number){
   return _nobleGases[number] != null;
 }
 
-bool isFound(int num) => _nobleGases[num] != null;
+bool isFound(int num) => _nobleGases[num] != null; //this sign is called fat arrow
 
-isNotFound(int num) => _nobleGases[num] == null; //this sign is called fat arrow
- status(int num) => {
+status(int num) => {
   _nobleGases[num] != null : "value is empty"
 };
 
