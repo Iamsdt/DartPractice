@@ -9,4 +9,13 @@ void main(){
   //reverse a string
   var input = "Bangladesh";
   print(input.split('').reversed.join());
+
+  String country = "Bangladesh";
+  //empty check
+  country.isEmpty;
+
+  //check link
+  String link = "https://www.google.com";
+  print(link.contains("https://"));
+
 }
