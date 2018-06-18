@@ -19,9 +19,8 @@ switch and case
 assert
 
  */
-
 ifElse(){
-  bool isOk = false;
+  bool isOk = false; // ignore: unused_local_variable
   bool isNot = false;
   if(isNot){
     //do something
