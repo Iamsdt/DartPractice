@@ -52,7 +52,7 @@ Future<bool> call(String vale) async {
   return true;
 }
 
-void multipleCall() async{
+void multipleCall() async {
   print("Start");
   Future future = call("one");
   Future future2 = call("two");
@@ -60,7 +60,7 @@ void multipleCall() async{
   Future future4 = call("four");
   Future future5 = call("five");
 
-  await Future.wait([future,future2,future3,future4,future5]);
+  await Future.wait([future, future2, future3, future4, future5]);
 
   print("Done");
 }
