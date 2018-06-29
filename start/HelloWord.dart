@@ -6,13 +6,26 @@
 
 import 'dart:math';
 
-//comment
+//single line comment
 /*
 * multi line comment
 */
 
-void main() {
-  print("Hello word");
+class TestMain{
+  void main(List<String> lists){
+
+
+    //var value; //value is null
+
+    String value;
+    int number;
+    double number2;
+    bool status;
+  }
+}
+
+void main(List<String> lists) {
+  print("Hello world");
 
   int i = 10;
   printInteger(i);
