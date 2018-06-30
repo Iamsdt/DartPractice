@@ -6,7 +6,7 @@ void main(){
 
   String password = "password my pass";
 
-  var salt = getList("Dart");
+  var salt = getList("Dart"); //salt random the encryption
   var pkcs = new KeyDerivator("SHA-1/HMAC/PBKDF2");
 
   var params = new Pbkdf2Parameters(salt, 100, 8);
