@@ -359,6 +359,13 @@
             </list>
           </value>
         </entry>
+        <entry key="sqljocky5">
+          <value>
+            <list>
+              <option value="D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/sqljocky5-1.0.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="stack_trace">
           <value>
             <list>
@@ -490,6 +497,7 @@
       <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/source_map_stack_trace-1.1.4/lib" />
       <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/source_maps-0.10.6/lib" />
       <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/source_span-1.4.0/lib" />
+      <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/sqljocky5-1.0.0/lib" />
       <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/stack_trace-1.9.2/lib" />
       <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/stream_channel-1.6.7+1/lib" />
       <root url="file://D:/Android/flutter/flutter_windows_v0.4.4-beta/flutter/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.0.2/lib" />
