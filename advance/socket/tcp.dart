@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'dart:convert';
+import 'dart:convert' show utf8;
 
 void main() async {
   var serverSocket = await ServerSocket.bind(
@@ -10,7 +10,7 @@ void main() async {
   await for (var socket in serverSocket){
     socket.listen((List value){
       print("${socket.remoteAddress}:${socket.remotePort} = "
-          "${UTF8.decode(value)} ");
+          "${utf8.decode(value)} ");
     });
   }
 

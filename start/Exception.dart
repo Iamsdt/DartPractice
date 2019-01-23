@@ -95,5 +95,4 @@ Finally() {
   } finally {
     cleanLlamaStalls(); // Then clean up.
   }
-
 }

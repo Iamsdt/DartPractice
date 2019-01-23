@@ -1,23 +1,19 @@
-import 'dart:io';
-import 'dart:async';
-import 'package:sqljocky5/constants.dart';
 import 'package:sqljocky5/sqljocky.dart';
-import 'package:sqljocky5/utils.dart';
 
 
 main(List<String> arguments) async {
 
-  var pool = new ConnectionPool(
+  var pool = new ConnectionSettings(
       host: 'localhost',
       port: 3306,
       user: 'bryan',
       password: 'password',
-      db: 'school',
-      max: 5
+      db: 'school'
   );
 
+  var conn = await MySqlConnection.connect(pool);
 
-  var query = await pool.prepare('insert into teachers (name,topic) values (?,?)');
+  var query = await conn.prepare('insert into teachers (name,topic) values (?,?)');
   await insert(query,'Bob', 'Science');
   await insert(query, 'Mary', 'Shop');
 

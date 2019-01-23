@@ -1,12 +1,12 @@
 import 'dart:io';
-import 'dart:convert';
+import 'dart:convert' show utf8;
 
 main(List<String> arguments) {
 
   var data = 'Hello World';
 
   // ignore: deprecated_member_use
-  List<int> dataToSend = UTF8.encode(data);
+  List<int> dataToSend = utf8.encode(data);
   int port = 3000;
 
   //Server
@@ -15,7 +15,7 @@ main(List<String> arguments) {
     udpSocket.listen((RawSocketEvent event) {
       if(event == RawSocketEvent.READ) {
         Datagram dg = udpSocket.receive();
-        print(UTF8.decode(dg.data));
+        print(utf8.decode(dg.data));
       }
     });
 

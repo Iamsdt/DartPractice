@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'dart:convert';
+import 'dart:convert' show utf8;
 
 void main(){
 
@@ -15,7 +15,7 @@ void main(){
   var dart = Platform.executable;
 
   Process.start("dart", []).then((Process process){
-    process.stdout.transform(UTF8.decoder).listen((data){
+    process.stdout.transform(utf8.decoder).listen((data){
       print(data);
 
       process.stdin.writeln("Hello word");

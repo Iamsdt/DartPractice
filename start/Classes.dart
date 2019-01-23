@@ -70,7 +70,7 @@ class Logger{
   final String name;
   bool mute = false;
 
-  static final Map<String, Logger> _cache = <String, Logger>{};
+  static final Map<String, Logger> _cache = {};
 
   factory Logger(String name) {
     if (_cache.containsKey(name)) {

@@ -11,13 +11,11 @@ import 'dart:math';
 * multi line comment
 */
 
-class TestMain{
-  void main(List<String> lists){
+class TestMain {
+  void main(List<String> lists) {
+    var value; //value is null
 
-
-    //var value; //value is null
-
-    String value;
+    String value2;
     int number;
     double number2;
     bool status;
@@ -34,7 +32,8 @@ void main(List<String> lists) {
   var v = 10; //this can hold any type of data
 
   dynamic s = "s";
-  String ds = "Ds"; //Another option is to explicitly declare the type that would be inferred
+  String ds =
+      "Ds"; //Another option is to explicitly declare the type that would be inferred
   String sin = 's'; //single quote
 
   //Uninitialized variables have an initial value of null.
@@ -43,14 +42,13 @@ void main(List<String> lists) {
   int lineCount;
 
   //multiple variable
-  var a,b,c,d,e;
+  var a, b, c, d, e;
   //multiple variable with value
-  var a1 = 10,b2 = 20,c2 = 30;
+  var a1 = 10, b2 = 20, c2 = 30;
 
   //final and constant
   final name = "Shudipto";
   final String type = "Student"; //explicitly
-
 
   const value = 1000;
   const String data = "data:$value"; //explicitly
@@ -72,9 +70,12 @@ void main(List<String> lists) {
   // It is not possible to change the value of a final or const variable.
   // bar = []; // Unhandled exception.
   // baz = []; // Unhandled exception.
-
 }
 
 printInteger(int i) {
   print(i);
+}
+
+getName(String name) {
+  return name;
 }

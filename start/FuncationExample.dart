@@ -56,7 +56,7 @@ void opPara(int a,int b,int c,[int d, int e]){
 }
 
 //default value with optional parameter
-void df(int a,int b,[int c = 0,int d = 0,int e = 0])
+int df(int a,int b,[int c = 0,int d = 0,int e = 0])
  => a+b+c+d+e;
 
 void main(){
